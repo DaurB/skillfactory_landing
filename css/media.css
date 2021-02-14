@@ -1,0 +1,175 @@
+@media screen and (max-width: 1300px) {
+    .header-button{
+        display: none;
+    }
+
+    header{
+        height: 57px;
+        padding: 50px 0 0 0;
+    }
+
+    .header-wrapper a{
+        color:  white;
+        text-decoration: none;
+    }
+
+    nav, footer, .nav-projects, .projects-navigation, .sec_five, .sec_six{
+        display: none;
+    }
+
+    .wrapper_1{
+        align-items: center;
+    }
+
+    .title1, .text1{
+        width: 90vw;
+    }
+
+    .buttons-section{
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        width: 90vw;
+    }
+
+    .button-transparent{
+        margin-left: 0;
+    }
+
+    .wrapper_2{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description-information-div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 40px;
+    }
+
+    .title2{
+        width:100%;
+        text-align: center;
+    }
+
+    .text2{
+        width:100%;
+    }
+
+    .project-info{
+        width: 90%;
+    }
+
+    .slider{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+
+    .slider img{
+        width:90vw;
+    }
+
+    .sec_three{
+        background-color:black;
+        height: 1150px;
+    }
+
+    .wrapper_3{
+        padding: 0 20px;
+    }
+
+    .videoframe{
+        width:90vw;
+    }
+
+    .text3{
+        width: 90vw;
+        color:white;
+    }
+
+    .form1{
+        flex-direction: column;
+        width: 90vw;
+        height: 300px;
+    }
+
+    
+    .form1 div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .textlabel{
+        width: 90vw;
+        margin: 0 0 10px 0;
+        color: white;
+    }
+
+    .textlabel input{
+        background-color: rgb(0, 0, 0);
+    }
+    .textlabel input::placeholder{
+        color: white;
+    }
+
+    .submit-button{
+        width: 90vw;
+        order: 5;
+    }
+    .checklabel{
+        margin: 0;
+        color: white;
+    }
+
+    .repair-types{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .repair-types img{
+        width: 90vw
+    }
+
+    .repair-text{
+        margin-bottom: 100px;
+    }
+
+    .sec_seven{
+        position:static;
+        background-color: black;
+    }
+    .sec_eight{
+        margin: 0;
+    }
+
+    .personal-data-div{
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .personal-data-div label{
+        width: 90vw;
+    }
+
+    .question-label, .callback-form{
+        width: 90vw;
+    }
+
+    .sec_eight{
+        background:black;
+        padding: 0;
+    }
+
+    .map{
+        order: -1;
+    }
+
+    .map img{
+        width:90vw;
+    }
+}
